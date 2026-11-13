@@ -2,18 +2,18 @@ backend:
   name: github
   repo: shawne-pan/Guzhen-Solar-Lighting
   branch: main
+  base_url: https://api.netlify.com
+  client_id: 0v23liJ4E0ITrZCBJEfk
 
 media_folder: "public/images"
 public_folder: "/images"
 
 collections:
-  - name: "products"
-    label: "太阳能路灯与照明产品"
-    folder: "src/content/products"
+  - name: "posts"
+    label: "文章/产品"
+    folder: "content/posts"
     create: true
-    slug: "{{slug}}"
     fields:
-      - {label: "产品标题", name: "title", widget: "string"}
-      - {label: "发布日期", name: "date", widget: "datetime"}
-      - {label: "产品图片", name: "image", widget: "image"}
-      - {label: "产品详细介绍", name: "body", widget: "markdown"}
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布时间", name: "date", widget: "datetime"}
+      - {label: "正文", name: "body", widget: "markdown"}
