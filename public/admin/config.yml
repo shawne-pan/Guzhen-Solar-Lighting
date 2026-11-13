@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: shawne-pan/Guzhen-Solar-Lighting
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "products"
+    label: "太阳能路灯与照明产品"
+    folder: "src/content/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "产品标题", name: "title", widget: "string"}
+      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "产品图片", name: "image", widget: "image"}
+      - {label: "产品详细介绍", name: "body", widget: "markdown"}
