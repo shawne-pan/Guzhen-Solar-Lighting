@@ -2,8 +2,7 @@ backend:
   name: github
   repo: shawne-pan/Guzhen-Solar-Lighting
   branch: main
-  local_backend: true
-  base_url: https://api.netlify.com
+  base_url: https://guzhen-solar-lighting.pages.dev/
   client_id: 0v23liJ4E0ITrZCBJEfk
 
 media_folder: "public/images"
