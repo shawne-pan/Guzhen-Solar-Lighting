@@ -2,7 +2,7 @@ backend:
   name: github
   repo: shawne-pan/Guzhen-Solar-Lighting
   branch: main
-  base_url: https://guzhen-auth.shawne-pan.workers.dev
+  base_url: https://guzhen-auth.470632839.workers.dev
   client_id: 0v23liJ4E0ITrZCBJEfk
 
 media_folder: "public/images"
